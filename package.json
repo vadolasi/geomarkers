@@ -1,0 +1,37 @@
+{
+  "name": "maps",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.122",
+    "@react-google-maps/api": "^2.19.2",
+    "@unocss/reset": "^0.56.4",
+    "clsx": "^2.0.0",
+    "daisyui": "^3.8.2",
+    "nanoid": "^5.0.1",
+    "preact": "^10.16.0",
+    "react-geocode": "1.0.0-alpha.1",
+    "react-geolocated": "^4.1.2",
+    "react-router": "^6.16.0",
+    "react-router-dom": "^6.16.0",
+    "react-select": "^5.7.5",
+    "unocss-preset-daisy": "^6.0.1",
+    "use-detect-keyboard-open": "^0.4.0",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@types/google.maps": "^3.54.2",
+    "@types/react": "^18.2.23",
+    "typescript": "^5.0.2",
+    "unocss": "^0.56.4",
+    "vite": "^4.4.5",
+    "vite-plugin-pages": "^0.31.0"
+  }
+}
